@@ -1,0 +1,19 @@
+run_app.bat
+external site.css
+flask.py
+app.py
+filelist.txt
+smw-mods.conf
+sudo.bash
+run.md
+flasksearch.py
+filenotfound.py
+flaskerror.py
+user_req.py
+search_results.html
+search.css
+openfile.py
+flaskendpoint.py
+index.html
+script.js
+style.css

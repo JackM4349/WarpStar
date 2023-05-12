@@ -1,0 +1,7 @@
+{% for result in results %}
+    <tr>
+        <td>{{ result.name }}</td>
+        <td><img src="{{ result.image_url }}" alt="{{ result.name }}"></td>
+        <td><a href="/download?url={{ result.url }}">Download</a></td>
+    </tr>
+{% endfor %}

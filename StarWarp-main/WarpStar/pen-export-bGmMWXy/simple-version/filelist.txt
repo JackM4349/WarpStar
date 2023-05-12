@@ -1,0 +1,16 @@
+smw-mods.conf
+sudo.bash
+run.md
+flasksearch.py
+filenotfound.py
+flaskerror.py
+user_req.py
+search_results.html
+search.css
+openfile.py
+flaskendpoint.py
+external site.css
+flask.py
+index.html
+script.js
+style.css

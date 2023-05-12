@@ -1,0 +1,11 @@
+def search_emulatorgames(query):
+    url = f'https://www.emulatorgames.net/search/?q={query}&console=Super%20Nintendo'
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, 'html.parser')
+    results = []
+    for result in soup.select('.search-results .game'):
+        name = result.select_one('.game-title').text.strip()
+        url = result.select_one('.game-title a')['href']
+        image_url = result.select_one('.game-image img')['src']
+        results.append({'name': name, 'url': url, 'image_url': image_url})
+    return results
